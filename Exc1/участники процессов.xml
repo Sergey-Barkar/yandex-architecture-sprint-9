@@ -5,6 +5,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-47" value="Маркетинговая информация" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-1" target="SJkwKraoPbRnpfq0mPH8-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-49" value="Платежные операции,&lt;br&gt; Открытия текущих счетов" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-1" target="SJkwKraoPbRnpfq0mPH8-48">
+          <mxGeometry x="0.1021" y="12" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SJkwKraoPbRnpfq0mPH8-1" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-181" y="36" width="30" height="60" as="geometry" />
         </mxCell>
@@ -43,10 +51,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SJkwKraoPbRnpfq0mPH8-9" value="Система call-центра" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="391" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SJkwKraoPbRnpfq0mPH8-17" value="Определение ставки" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-10" target="SJkwKraoPbRnpfq0mPH8-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-17" value="Определение ставки" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-10" target="SJkwKraoPbRnpfq0mPH8-16">
+          <mxGeometry x="-0.056" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SJkwKraoPbRnpfq0mPH8-24" value="Ставки по депозитам" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-10" target="SJkwKraoPbRnpfq0mPH8-11">
           <mxGeometry relative="1" as="geometry" />
@@ -64,14 +74,14 @@
           <mxGeometry x="142" y="397" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SJkwKraoPbRnpfq0mPH8-16" value="СМС-шлюз" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="818" y="183" width="120" height="60" as="geometry" />
+          <mxGeometry x="681" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SJkwKraoPbRnpfq0mPH8-18" value="Детали по депозитам" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-16" target="SJkwKraoPbRnpfq0mPH8-1">
-          <mxGeometry x="0.0963" y="34" relative="1" as="geometry">
+          <mxGeometry x="-0.0761" y="35" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="14" />
-              <mxPoint x="263" y="-169" />
-              <mxPoint x="-282" y="-6" />
+              <mxPoint x="332" y="-277" />
+              <mxPoint x="-299" y="-31" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -110,6 +120,29 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-41" target="SJkwKraoPbRnpfq0mPH8-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-41" value="&lt;div&gt;Сотрудник партнерского call-центра&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="27" y="495" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-42" value="Система партнерского call-центра" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142" y="486" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-46" value="Сайт" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-50" value="Платежные операции, &lt;br&gt;Открытия текущих счетов" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SJkwKraoPbRnpfq0mPH8-48" target="SJkwKraoPbRnpfq0mPH8-10">
+          <mxGeometry x="-0.3154" y="-59" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="-133" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SJkwKraoPbRnpfq0mPH8-48" value="Интернет-банк" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-152" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
